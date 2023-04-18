@@ -1,10 +1,10 @@
 <?php
-// src/Model/Entity/Article.php
+// src/Model/Entity/Post.php
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
 
-class Article extends Entity
+class Post extends Entity
 {
     protected $_accessible = [
         '*' => true,

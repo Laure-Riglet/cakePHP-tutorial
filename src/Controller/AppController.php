@@ -44,8 +44,7 @@ class AppController extends Controller
         parent::initialize();
 
         $this->loadComponent('RequestHandler');
-        $this->loadComponent('Flash');
-        $this->loadComponent('Paginator');
+        $this->autoRender = false;
 
         /*
          * Enable the following component for recommended CakePHP form protection settings.
