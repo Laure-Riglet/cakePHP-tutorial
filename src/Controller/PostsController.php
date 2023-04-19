@@ -3,8 +3,6 @@
 
 namespace App\Controller;
 
-use Cake\Http\Client;
-
 class PostsController extends AppController
 {
     public function index()
@@ -31,6 +29,7 @@ class PostsController extends AppController
     public function add()
     {
         $post = $this->Posts->newEmptyEntity();
+
         if ($this->request->is('post')) {
             $post = $this->Posts->patchEntity($post, $this->request->getData());
 
@@ -42,17 +41,20 @@ class PostsController extends AppController
                 return $this
                     ->response
                     ->withType("application/json")
+                    ->withStatus(201)
                     ->withStringBody(json_encode(['success' => 'The ' . $post->title . ' post has been created.', 'post' => $post]));
             }
 
             return $this
                 ->response
                 ->withType("application/json")
+                ->withStatus(400)
                 ->withStringBody(json_encode(['error' => $post->getErrors()]));
         }
         return $this
             ->response
             ->withType("application/json")
+            ->withStatus(400)
             ->withStringBody(json_encode(['error' => 'undefined error']));
     }
 
@@ -75,11 +77,13 @@ class PostsController extends AppController
             return $this
                 ->response
                 ->withType("application/json")
+                ->withStatus(400)
                 ->withStringBody(json_encode(['error' => $post->getErrors()]));
         }
         return $this
             ->response
             ->withType("application/json")
+            ->withStatus(400)
             ->withStringBody(json_encode(['error' => 'undefined error']));
     }
 

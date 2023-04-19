@@ -27,6 +27,10 @@ use Cake\Routing\RouteBuilder;
 
 return static function (RouteBuilder $routes) {
 
+    $routes->scope('/', function (RouteBuilder $routes) {
+        $routes->setExtensions(['json']);
+    });
+
     $routes->get(
         '/posts',
         ['controller' => 'Posts', 'action' => 'index'],
