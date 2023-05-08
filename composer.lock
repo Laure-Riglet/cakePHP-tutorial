@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "cakephp/cakephp",
-            "version": "4.4.12",
+            "version": "4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "ecacba23d96a5e5052716bf19fe8b96c5549acf3"
+                "reference": "fa6de1f62cd4b1601ca01878457766807e5895d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/ecacba23d96a5e5052716bf19fe8b96c5549acf3",
-                "reference": "ecacba23d96a5e5052716bf19fe8b96c5549acf3",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/fa6de1f62cd4b1601ca01878457766807e5895d3",
+                "reference": "fa6de1f62cd4b1601ca01878457766807e5895d3",
                 "shasum": ""
             },
             "require": {
@@ -116,20 +116,20 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/cakephp"
             },
-            "time": "2023-03-24T01:27:09+00:00"
+            "time": "2023-04-23T02:36:23+00:00"
         },
         {
             "name": "cakephp/chronos",
-            "version": "2.3.2",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/chronos.git",
-                "reference": "a21b7b633f483c4cf525d200219d200f551ee38b"
+                "reference": "b5d962b7ae615ec5dc053e1d5b57d561fa9a231c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/chronos/zipball/a21b7b633f483c4cf525d200219d200f551ee38b",
-                "reference": "a21b7b633f483c4cf525d200219d200f551ee38b",
+                "url": "https://api.github.com/repos/cakephp/chronos/zipball/b5d962b7ae615ec5dc053e1d5b57d561fa9a231c",
+                "reference": "b5d962b7ae615ec5dc053e1d5b57d561fa9a231c",
                 "shasum": ""
             },
             "require": {
@@ -174,20 +174,20 @@
                 "issues": "https://github.com/cakephp/chronos/issues",
                 "source": "https://github.com/cakephp/chronos"
             },
-            "time": "2022-11-08T02:17:04+00:00"
+            "time": "2023-04-19T15:05:35+00:00"
         },
         {
             "name": "cakephp/migrations",
-            "version": "3.8.0",
+            "version": "3.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/migrations.git",
-                "reference": "8eaf51d88fc4350a66fd98118828f9a75ff1e0d2"
+                "reference": "f30c575b2f026f69a78bc7bdd905e292b578b2d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/migrations/zipball/8eaf51d88fc4350a66fd98118828f9a75ff1e0d2",
-                "reference": "8eaf51d88fc4350a66fd98118828f9a75ff1e0d2",
+                "url": "https://api.github.com/repos/cakephp/migrations/zipball/f30c575b2f026f69a78bc7bdd905e292b578b2d6",
+                "reference": "f30c575b2f026f69a78bc7bdd905e292b578b2d6",
                 "shasum": ""
             },
             "require": {
@@ -234,7 +234,7 @@
                 "issues": "https://github.com/cakephp/migrations/issues",
                 "source": "https://github.com/cakephp/migrations"
             },
-            "time": "2023-03-22T18:19:12+00:00"
+            "time": "2023-05-04T15:15:35+00:00"
         },
         {
             "name": "cakephp/plugin-installer",
@@ -460,16 +460,16 @@
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-httphandlerrunner.git",
-                "reference": "4845298215708c660f76a2d5d8b78e67979457c5"
+                "reference": "a894a341ec2b0995919265db4f463fb1d5128134"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/4845298215708c660f76a2d5d8b78e67979457c5",
-                "reference": "4845298215708c660f76a2d5d8b78e67979457c5",
+                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/a894a341ec2b0995919265db4f463fb1d5128134",
+                "reference": "a894a341ec2b0995919265db4f463fb1d5128134",
                 "shasum": ""
             },
             "require": {
@@ -480,10 +480,10 @@
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~2.5.0",
-                "laminas/laminas-diactoros": "^2.25.1",
-                "phpunit/phpunit": "^10.0.19",
+                "laminas/laminas-diactoros": "^2.25.2",
+                "phpunit/phpunit": "^10.1.2",
                 "psalm/plugin-phpunit": "^0.18.4",
-                "vimeo/psalm": "^5.9"
+                "vimeo/psalm": "^5.11"
             },
             "type": "library",
             "extra": {
@@ -523,7 +523,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2023-04-09T21:49:08+00:00"
+            "time": "2023-05-05T16:09:27+00:00"
         },
         {
             "name": "league/container",
@@ -1255,16 +1255,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v6.2.8",
+            "version": "v6.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "3582d68a64a86ec25240aaa521ec8bc2342b369b"
+                "reference": "12288d9f4500f84a4d02254d4aa968b15488476f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/3582d68a64a86ec25240aaa521ec8bc2342b369b",
-                "reference": "3582d68a64a86ec25240aaa521ec8bc2342b369b",
+                "url": "https://api.github.com/repos/symfony/console/zipball/12288d9f4500f84a4d02254d4aa968b15488476f",
+                "reference": "12288d9f4500f84a4d02254d4aa968b15488476f",
                 "shasum": ""
             },
             "require": {
@@ -1331,7 +1331,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v6.2.8"
+                "source": "https://github.com/symfony/console/tree/v6.2.10"
             },
             "funding": [
                 {
@@ -1347,7 +1347,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-29T21:42:15+00:00"
+            "time": "2023-04-28T13:37:43+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1418,16 +1418,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v6.2.7",
+            "version": "v6.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "82b6c62b959f642d000456f08c6d219d749215b3"
+                "reference": "fd588debf7d1bc16a2c84b4b3b71145d9946b894"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/82b6c62b959f642d000456f08c6d219d749215b3",
-                "reference": "82b6c62b959f642d000456f08c6d219d749215b3",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/fd588debf7d1bc16a2c84b4b3b71145d9946b894",
+                "reference": "fd588debf7d1bc16a2c84b4b3b71145d9946b894",
                 "shasum": ""
             },
             "require": {
@@ -1461,7 +1461,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v6.2.7"
+                "source": "https://github.com/symfony/filesystem/tree/v6.2.10"
             },
             "funding": [
                 {
@@ -1477,7 +1477,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-14T08:44:56+00:00"
+            "time": "2023-04-18T13:46:08+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
